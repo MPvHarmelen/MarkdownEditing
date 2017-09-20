@@ -312,7 +312,7 @@
                 <key>foreground</key>
                 <string>#555555</string>
                 <key>background</key>
-                <string>#131313</string>
+                <string>#000000</string>
             </dict>
         </dict>
         <dict>
@@ -556,7 +556,7 @@
                 <key>foreground</key>
                 <string>#313131</string>
                 <key>background</key>
-                <string>#131313</string>
+                <string>#000000</string>
             </dict>
         </dict>
         <dict>
@@ -722,7 +722,7 @@
                 <key>foreground</key>
                 <string>#313131</string>
                 <key>background</key>
-                <string>#131313</string>
+                <string>#000000</string>
             </dict>
         </dict>
         <dict>
