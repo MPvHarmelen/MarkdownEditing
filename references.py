@@ -257,17 +257,8 @@ def append_reference_link(edit, view, name, url):
 
 
 def suggest_default_link_name(name, image):
-    """Suggest default link name in camel case."""
-    ret = ''
-    name_segs = name.split()
-    if len(name_segs) > 1:
-        for word in name_segs:
-            ret += word.capitalize()
-            if len(ret) > 30:
-                break
-        return ('image' if image else '') + ret
-    else:
-        return name
+    """Suggest default link name using identity function."""
+    return name
 
 
 def check_for_link(view, link):
